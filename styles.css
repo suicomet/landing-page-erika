@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F9F8E7ff;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    background-color: #5260A4ff;
+    justify-content: space-between;
+    flex-grow: 1;
+    color: #F9F8E7ff;
+    padding: 20px 120px;
+    align-items: center;
+    border-bottom: 2px solid #272B53ff;
+}
+
+.erika-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F9F8E7ff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-icon {
+    object-fit: cover;
+    width: 200%;
+    object-position: -15px -5px;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.header-links a {
+    color: #F9F8E7ff;
+    font-family: "Roboto", serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #5260A4ff;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-title {
+    color: #F9F8E7ff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero-description {
+    color: #F9F8E7ff;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.btn-hero {
+    border-radius: 12px;
+    background-color: #AE6179ff;
+    border: none;
+    color: #F9F8E7ff; 
+    text-decoration: none;
+    padding: 6px 22px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.friends-container {
+    display: flex;
+    background-color: #8E4452ff;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 40px;
+
+}
+
+.friends-title {
+    color: #F9F8E7ff;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.friends-image-desc {
+    display: flex;
+    gap: 20px;
+}
+
+.ange, .dianor, .bern, .eva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ange-img-card, .dianor-img-card, .bern-img-card, .eva-img-card{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 5px solid #AE6179ff;
+    border-radius: 10px;
+
+}
+
+.ange-img {
+    object-fit: cover;
+    width: 120%;
+    height: 100%;
+    object-position: -15px top;
+
+}
+
+.dianor-img {
+    object-fit: none;
+    width: 200%;
+    height: 200%;
+    object-position: top;
+    padding-right: 200px ;
+
+}
+
+.bern-img {
+    object-fit: none;
+    width: 150%;
+    height: 100%;
+    object-position: top;
+    padding-right: 80px;
+}
+
+.eva-img {
+    object-fit: cover;
+    width: 280%;
+    height: 190px;
+    object-position: -85px top;
+
+    
+}
+
+.ange-desc, .dianor-desc, .bern-desc, .eva-desc{
+    max-width: 200px;
+    text-align: center;
+    color:#F9F8E7ff;
+    font-size: 16px;
+}
+
+.quote-container {
+    background-color: #272B53ff;
+    padding: 80px 200px;
+    display: flex;
+    flex-direction: column;
+    color: #F9F8E7ff;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.call-container {
+    background-color: #5260A4ff;
+    color: #F9F8E7ff;
+    padding: 100px;
+
+}
+
+.call-action {
+    background-color: #AE6179ff;
+    border: 2px solid #F9F8E7ff;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.call-btn {
+    border-radius: 12px;
+    background-color:#5260A4ff;
+    border: 2px solid #F9F8E7ff;
+    color: #F9F8E7ff; 
+    text-decoration: none;
+    padding: 6px 24px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.footer {
+    background-color: #272B53ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #F9F8E7ff;
+}
+
+/**.ange-img, .dianor-img, .bern-img, .eva-img{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
